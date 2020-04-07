@@ -1,0 +1,11 @@
+channels:
+- currentCSV: elasticsearch-operator.4.1.37-202003021622
+  name: preview
+- currentCSV: elasticsearch-operator.4.2.26-202003230335
+  name: '4.2'
+- currentCSV: elasticsearch-operator.4.2.26-202003230335-s390x
+  name: 4.2-s390x
+- currentCSV: elasticsearch-operator.4.3.9-202003230345
+  name: '4.3'
+defaultChannel: '4.3'
+packageName: elasticsearch-operator
