@@ -48,7 +48,22 @@ docker.io/maistra/examples-bookinfo-ratings-v1:0.12.0
 docker.io/maistra/examples-bookinfo-reviews-v1:0.12.0
 docker.io/maistra/examples-bookinfo-reviews-v2:0.12.0
 docker.io/maistra/examples-bookinfo-reviews-v3:0.12.0
-openshift-marketplace/mirrored-operator-catalog:latest
+quay.io/jaysonzhao/svcmeshcodeready:latest
+registry.redhat.io/codeready-workspaces/server-rhel8:2.0
+registry.redhat.io/codeready-workspaces/server-operator-rhel8:2.0
+registry.redhat.io/codeready-workspaces/devfileregistry-rhel8:2.0
+registry.redhat.io/redhat-sso-7/sso73-openshift:1.0-15
+registry.redhat.io/codeready-workspaces/pluginregistry-rhel8:2.0
+registry.redhat.io/rhscl/postgresql-96-rhel7:1-47
+registry.access.redhat.com/rhscl/mysql-57-rhel7
+registry.access.redhat.com/rhscl/redis-32-rhel7
+quay.io/redhat/quay:v3.2.0
+quay.io/redhat/quay:v3.2.1
+quay.io/redhat/clair-jwt:v3.2.0
+quay.io/redhat/clair-jwt:v3.2.1
+docker.io/library/postgres
+docker.io/wangzheng422/quay-fs:3.2.0-init
+quay.io/jaysonzhao/redhat-operators:latest
 )
 
 for image in ${images[@]}; do
