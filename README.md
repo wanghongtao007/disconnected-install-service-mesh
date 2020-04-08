@@ -74,7 +74,7 @@ spec:
 ### Then, apply the config file 
 
 ```
-oc apply -f sample-registries.conf
+oc apply -f machineconfig.yaml
 ```
 
 ### Create CatalogSource
