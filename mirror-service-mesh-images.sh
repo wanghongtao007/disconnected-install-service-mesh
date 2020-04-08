@@ -63,7 +63,30 @@ quay.io/redhat/clair-jwt:v3.2.0
 quay.io/redhat/clair-jwt:v3.2.1
 docker.io/library/postgres
 docker.io/wangzheng422/quay-fs:3.2.0-init
-quay.io/jaysonzhao/redhat-operators:latest
+quay.io/jaysonzhao/redhat-operators:v2
+quay.io/jaysonzhao/svcmeshcodeready:latest
+quay.io/jaysonzhao/community-operators:v2
+registry.redhat.io/codeready-workspaces/server-operator-rhel8:2.0
+registry.redhat.io/codeready-workspaces/server-rhel8:2.0
+registry.redhat.io/codeready-workspaces/pluginregistry-rhel8:2.0
+registry.redhat.io/codeready-workspaces/devfileregistry-rhel8:2.0
+registry.redhat.io/codeready-workspaces/pluginbroker-rhel8:2.0
+registry.redhat.io/codeready-workspaces/pluginbrokerinit-rhel8:2.0
+registry.redhat.io/codeready-workspaces/jwtproxy-rhel8:2.0
+registry.redhat.io/codeready-workspaces/machineexec-rhel8:2.0
+registry.redhat.io/codeready-workspaces/theia-rhel8:2.0
+registry.redhat.io/codeready-workspaces/theia-endpoint-rhel8:2.0
+registry.redhat.io/rhscl/postgresql-96-rhel7:1-47
+registry.redhat.io/redhat-sso-7/sso73-openshift:1.0-15
+registry.redhat.io/ubi8-minimal:8.0-213
+registry.redhat.io/codeready-workspaces/stacks-cpp-rhel8:2.0
+registry.redhat.io/codeready-workspaces/stacks-dotnet-rhel8:2.0
+registry.redhat.io/codeready-workspaces/stacks-golang-rhel8:2.0
+registry.redhat.io/codeready-workspaces/stacks-java-rhel8:2.0
+registry.redhat.io/codeready-workspaces/stacks-node-rhel8:2.0
+registry.redhat.io/codeready-workspaces/stacks-php-rhel8:2.0
+registry.redhat.io/codeready-workspaces/stacks-python-rhel8:2.0
+registry.redhat.io/codeready-workspaces/plugin-openshift-rhel8:2.0
 )
 
 for image in ${images[@]}; do
