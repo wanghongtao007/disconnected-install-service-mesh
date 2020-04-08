@@ -87,6 +87,10 @@ registry.redhat.io/codeready-workspaces/stacks-node-rhel8:2.0
 registry.redhat.io/codeready-workspaces/stacks-php-rhel8:2.0
 registry.redhat.io/codeready-workspaces/stacks-python-rhel8:2.0
 registry.redhat.io/codeready-workspaces/plugin-openshift-rhel8:2.0
+quay.io/jmckind/argocd-operator@sha256:5d7c4b0e8e0fea068e49a9718a35ae068fc267e607f7393374db39916d7186f4
+argoproj/argocd@sha256:f7a4a8e4542ef9d2e0cb6d3fe5814e87b79b8064089c0bc29ae7cefae8e93b66
+quay.io/dexidp/dex@sha256:c14ea9dbf341de51c8c0858a65bfe905a0a2cc154311c959a0bfe609bfe177b5v2.21.0
+redis@sha256:4be7fdb131e76a6c6231e820c60b8b12938cf1ff3d437da4871b9b2440f4e385
 )
 
 for image in ${images[@]}; do
