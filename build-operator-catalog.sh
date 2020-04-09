@@ -23,6 +23,6 @@ if [ ! -d "./manifests" ]; then
 fi
 
 podman build --no-cache -f Dockerfile \
-    -t ${REGISTRY}/openshift-marketplace/mirrored-operator-catalog
+    -t ${REGISTRY}/mirrored-operator-catalog
 
-podman push ${REGISTRY}/openshift-marketplace/mirrored-operator-catalog
+podman push ${REGISTRY}/mirrored-operator-catalog

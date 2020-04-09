@@ -1,0 +1,207 @@
+STEP 1: FROM registry.redhat.io/openshift4/ose-operator-registry:v4.2.24
+STEP 2: COPY manifests manifests
+b256357e1ea6549148b4a7e738919ebaae4a4873ddccb8183b27f22c2a0339d1
+STEP 3: RUN /bin/initializer -o ./bundles.db
+time="2020-04-08T14:35:11Z" level=info msg="loading Bundles" dir=manifests
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=manifests load=bundles
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=argocd-operator-7ni9irq7 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=0.0.4 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=argocd-operator.v0.0.4.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=argocd-operator.v0.0.4.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=argoproj.io_applications_crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=argoproj.io_appprojects_crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=argoproj.io_argocdexports_crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=argoproj.io_argocds_crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=0.0.5 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=argocd-operator.v0.0.5.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=argocd-operator.v0.0.5.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=argoproj.io_applications_crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=argoproj.io_appprojects_crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=argoproj.io_argocdexports_crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=argoproj.io_argocds_crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=codeready-workspaces-jswy6vtm load=bundles
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=v1.2.0 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=codeready-workspaces.1.2.0.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=codeready-workspaces.1.2.0.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=codeready-workspaces.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=v1.2.2 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=codeready-workspaces.1.2.2.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=codeready-workspaces.1.2.2.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=codeready-workspaces.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=v2.0.0 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=codeready-workspaces.2.0.0.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=codeready-workspaces.2.0.0.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=codeready-workspaces.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=elasticsearch-operator-t2hk70q3 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=4.1 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=elasticsearch-operator.v4.1.0.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=elasticsearch-operator.v4.1.0.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=elasticsearches.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=4.2 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=elasticsearch-operator.v4.2.0.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=elasticsearch-operator.v4.2.0.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=elasticsearches.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=4.2-s390x load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=elasticsearch-operator.v4.2.0.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=elasticsearch-operator.v4.2.0.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=elasticsearches.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=4.3 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=elasticsearch-operator.v4.3.0.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=elasticsearch-operator.v4.3.0.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=elasticsearches.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=jaeger-product-rhilmuww load=bundles
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.13 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=jaeger.v1.13.1.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=jaeger-v1.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=jaeger.v1.13.1.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=kiali-ossm-kk2kfhau load=bundles
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.10 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=kiali.v1.0.10.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.monitoringdashboards.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.v1.0.10.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.11 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=kiali.v1.0.11.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.monitoringdashboards.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.v1.0.11.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.12 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=kiali.v1.0.12.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.monitoringdashboards.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.v1.0.12.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.5 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=kiali.v1.0.5.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.monitoringdashboards.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.v1.0.5.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.6 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=kiali.v1.0.6.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.monitoringdashboards.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.v1.0.6.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.7 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=kiali.v1.0.7.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.monitoringdashboards.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.v1.0.7.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.8 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=kiali.v1.0.8.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.monitoringdashboards.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.v1.0.8.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.9 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=kiali.v1.0.9.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.monitoringdashboards.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=kiali.v1.0.9.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=servicemeshoperator-u4ch_h1b load=bundles
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.0 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=servicemeshoperator.v1.0.0.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshcontrolplanes.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshmemberrolls.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshoperator.v1.0.0.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.1 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=servicemeshoperator.v1.0.1.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshcontrolplanes.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshmemberrolls.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshoperator.v1.0.1.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.10 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=servicemeshoperator.v1.0.10.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshcontrolplanes.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshmemberrolls.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshoperator.v1.0.10.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.2 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=servicemeshoperator.v1.0.2.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshcontrolplanes.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshmemberrolls.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshoperator.v1.0.2.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.3 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=servicemeshoperator.v1.0.3.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshcontrolplanes.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshmemberrolls.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshoperator.v1.0.3.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.4 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=servicemeshoperator.v1.0.4.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshcontrolplanes.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshmemberrolls.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshoperator.v1.0.4.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.5 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=servicemeshoperator.v1.0.5.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshcontrolplanes.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshmemberrolls.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshoperator.v1.0.5.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.6 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=servicemeshoperator.v1.0.6.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshcontrolplanes.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshmemberrolls.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshoperator.v1.0.6.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.7 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=servicemeshoperator.v1.0.7.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshcontrolplanes.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshmemberrolls.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshoperator.v1.0.7.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.8 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=servicemeshoperator.v1.0.8.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshcontrolplanes.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshmemberrolls.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshoperator.v1.0.8.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=1.0.9 load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="found csv, loading bundle" dir=manifests file=servicemeshoperator.v1.0.9.clusterserviceversion.yaml load=bundles
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshcontrolplanes.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshmemberrolls.crd.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading bundle file" dir=manifests file=servicemeshoperator.v1.0.9.clusterserviceversion.yaml load=bundle
+time="2020-04-08T14:35:11Z" level=info msg="loading Packages and Entries" dir=manifests
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=manifests load=package
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=argocd-operator-7ni9irq7 load=package
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=0.0.4 load=package
+time="2020-04-08T14:35:11Z" level=info msg=directory dir=manifests file=0.0.5 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=codeready-workspaces-jswy6vtm load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=v1.2.0 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=v1.2.2 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=v2.0.0 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=elasticsearch-operator-t2hk70q3 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=4.1 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=4.2 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=4.2-s390x load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=4.3 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=jaeger-product-rhilmuww load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.13 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=kiali-ossm-kk2kfhau load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.10 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.11 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.12 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.5 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.6 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.7 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.8 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.9 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=servicemeshoperator-u4ch_h1b load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.0 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.1 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.10 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.2 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.3 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.4 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.5 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.6 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.7 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.8 load=package
+time="2020-04-08T14:35:12Z" level=info msg=directory dir=manifests file=1.0.9 load=package
+c05f12dd4301889d1a90c8fe91da1901caab7d4e0b522ddf1f17105cabaa3dd5
+STEP 4: EXPOSE 50051
+3bfbf388d2a24c6e7191fadefa2a9f2a8d783836699f11d49be930432b6935f9
+STEP 5: ENTRYPOINT ["/bin/registry-server"]
+fbb4ac86bece5f0680cb63fb24559d4d6d53a1b19337587e713132ed998fdb28
+STEP 6: CMD ["--database", "bundles.db"]
+STEP 7: COMMIT quay.io/jaysonzhao/mirrored-operator-catalog
+c4923c1a75be16f29e96e5d975e9ef2c590ded320f834e71ad222a86ef92ed3b
+Getting image source signatures
+Copying blob sha256:35817540a17b5b90cb4426078d53813b16e70c75e1cce3db116d2fbbca7fbf10
+Copying blob sha256:d4f5509ec924c66ccdd2188993241f938516a637998dfde0c0d26a1a1803472a
+Copying blob sha256:d9a13b4a9355950273953201a15237904fbaf50ee709fa43f2be78da7e8d56ed
+Copying blob sha256:1552b007ee56cda60ed23d135b1a8868a48d72d9475e6c73d8f40512e2b19d00
+Copying blob sha256:54c88681a5d9b32d83e91a896ba4429462d50c46cfde3c11982fa603a9072050
+Copying blob sha256:c7fbe90ae90e9c6452e5d809f069907907e6f32532565104921f600fb956306c
+Copying blob sha256:6b3b6ef2bec2858f5c17577b4a4afc1ec5830fa2c01abe0c547449ab55785586
+Error: Error copying image to the remote destination: Error writing blob: Patch https://quay.io/v2/jaysonzhao/mirrored-operator-catalog/blobs/uploads/57ae5ed0-34f2-4745-97b8-be44bc7ed511: EOF
